@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromotionRuleEngine", "PromotionRuleEngine\PromotionRuleEngine.csproj", "{08DFF46E-EBAC-4C2A-B9DB-BC049ACAAE5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromotionRuleEngine.UnitTests", "PromotionRuleEngine.UnitTests\PromotionRuleEngine.UnitTests.csproj", "{FA3B809C-EE46-4B40-B902-45B851F972B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromotionRuleEngine.Tests", "PromotionRuleEngine.Tests\PromotionRuleEngine.Tests.csproj", "{73B928E4-2B43-4F7E-B82B-76E911B2ED22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +15,9 @@ Global
 		{08DFF46E-EBAC-4C2A-B9DB-BC049ACAAE5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08DFF46E-EBAC-4C2A-B9DB-BC049ACAAE5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08DFF46E-EBAC-4C2A-B9DB-BC049ACAAE5C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FA3B809C-EE46-4B40-B902-45B851F972B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FA3B809C-EE46-4B40-B902-45B851F972B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FA3B809C-EE46-4B40-B902-45B851F972B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FA3B809C-EE46-4B40-B902-45B851F972B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73B928E4-2B43-4F7E-B82B-76E911B2ED22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73B928E4-2B43-4F7E-B82B-76E911B2ED22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73B928E4-2B43-4F7E-B82B-76E911B2ED22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73B928E4-2B43-4F7E-B82B-76E911B2ED22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

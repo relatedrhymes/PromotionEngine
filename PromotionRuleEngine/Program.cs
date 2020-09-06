@@ -1,12 +1,19 @@
 ﻿using System;
+using System.Collections.Generic;
+using PromotionRuleEngine.Models;
+using PromotionRuleEngine.Rules;
 
 namespace PromotionRuleEngine
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            PromotionEngine engine = new PromotionEngine();
+            Cart cart = engine.InitializeCart();
+            cart = engine.RunPromotionEngine(cart);
+            engine.DisplayResults(cart);
+            Console.ReadLine();
         }
     }
 }
